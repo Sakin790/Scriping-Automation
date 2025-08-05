@@ -1,0 +1,19 @@
+🔹 Learn:
+
+    os, sys → working with system and environment
+
+    shutil → file and folder automation
+
+    pathlib → modern file path handling
+
+    argparse → command-line arguments
+
+    datetime → working with dates and times
+
+    subprocess → run shell commands from Python
+
+    Error handling (try, except, finally)
+
+    Working with JSON, CSV, and Excel files
+
+    Logging → use logging module instead of print()
