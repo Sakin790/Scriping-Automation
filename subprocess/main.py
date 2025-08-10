@@ -1,15 +1,13 @@
 """
 subprocess.run()
-
 subprocess.Popen()
-
 subprocess.call()
 
 """
 
 import subprocess
 
-result = subprocess.run(["ls","-l"], capture_output=True, text=True)
+result = subprocess.run(["sudo","docker","ps","-a"], capture_output=True, text=True)
 print(result.stdout)
 """
 capture_output=True captures stdout and stderr.

@@ -9,6 +9,11 @@ import os
 #print(os.listdir("."))
 
 """
+os.getcwdb()
+"""
+inx = os.listdir()
+print(inx)
+"""
 stats = os.stat("file.txt")
 print(stats.st_size)  # File size in bytes
 print(stats.st_mtime)
